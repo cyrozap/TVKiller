@@ -273,7 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>18</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -324,7 +324,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8564AD21119651610009E35C</string>
+										<string>8581404B11965A5E004BDA96</string>
 										<key>history</key>
 										<array>
 											<string>8564AD12119651610009E35C</string>
@@ -341,7 +341,7 @@
 											<string>8564AD1D119651610009E35C</string>
 											<string>8564AD1E119651610009E35C</string>
 											<string>8564AD1F119651610009E35C</string>
-											<string>8564AD20119651610009E35C</string>
+											<string>8564AD21119651610009E35C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -353,14 +353,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1392, 785}}</string>
+								<string>{{0, 0}, {1392, 781}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 136 1600 1042 0 0 1600 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>785pt</string>
+							<string>781pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -373,14 +373,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 790}, {1392, 211}}</string>
+								<string>{{0, 786}, {1392, 215}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 136 1600 1042 0 0 1600 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>211pt</string>
+							<string>215pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -399,9 +399,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>8564AD22119651610009E35C</string>
+				<string>8581404C11965A5E004BDA96</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>8564AD23119651610009E35C</string>
+				<string>8581404D11965A5E004BDA96</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -539,8 +539,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>859A783D118F8BF800F24DC6</string>
 		<string>/Users/forest/Documents/TVKiller/TVKiller.xcodeproj</string>
 	</array>
@@ -622,7 +620,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>859A783D118F8BF800F24DC6</string>
-				<string>8564ACFA11964DFF0009E35C</string>
+				<string>8581404E11965A5E004BDA96</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

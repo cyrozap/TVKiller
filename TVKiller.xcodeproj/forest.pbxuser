@@ -163,8 +163,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 295062897;
-			PBXWorkspaceStateSaveDate = 295062897;
+			PBXPerProjectTemplateStateSaveDate = 295066199;
+			PBXWorkspaceStateSaveDate = 295066199;
 		};
 		perUserProjectItems = {
 			8564AD12119651610009E35C /* PBXTextBookmark */ = 8564AD12119651610009E35C /* PBXTextBookmark */;
@@ -181,8 +181,8 @@
 			8564AD1D119651610009E35C /* PBXTextBookmark */ = 8564AD1D119651610009E35C /* PBXTextBookmark */;
 			8564AD1E119651610009E35C /* PBXTextBookmark */ = 8564AD1E119651610009E35C /* PBXTextBookmark */;
 			8564AD1F119651610009E35C /* PBXTextBookmark */ = 8564AD1F119651610009E35C /* PBXTextBookmark */;
-			8564AD20119651610009E35C /* PBXBookmark */ = 8564AD20119651610009E35C /* PBXBookmark */;
 			8564AD21119651610009E35C /* PlistBookmark */ = 8564AD21119651610009E35C /* PlistBookmark */;
+			8581404B11965A5E004BDA96 /* PlistBookmark */ = 8581404B11965A5E004BDA96 /* PlistBookmark */;
 		};
 		sourceControlManager = 859A783F118F8BF800F24DC6 /* Source Control */;
 		userBuildSettings = {
@@ -357,11 +357,18 @@
 		vrLen = 830;
 		vrLoc = 0;
 	};
-	8564AD20119651610009E35C /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8D1107310486CEB800E47090 /* TVKiller-Info.plist */;
-	};
 	8564AD21119651610009E35C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TVKiller-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/forest/Documents/TVKiller/TVKiller-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	8581404B11965A5E004BDA96 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* TVKiller-Info.plist */;
 		fallbackIsa = PBXBookmark;
