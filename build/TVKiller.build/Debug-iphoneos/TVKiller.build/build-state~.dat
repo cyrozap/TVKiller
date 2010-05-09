@@ -1,0 +1,398 @@
+TTVKiller
+v7
+r0
+t294620171.975364
+cCheck dependencies
+cCpResource build/Debug-iphoneos/TVKiller.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/Info.plist TVKiller-Info.plist
+cCompileXIB /Users/forest/Documents/TVKiller/FlipsideView.xib
+cCompileXIB /Users/forest/Documents/TVKiller/MainView.xib
+cCompileXIB /Users/forest/Documents/TVKiller/MainWindow.xib
+cProcessPCH /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch.gch TVKiller_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/main.o /Users/forest/Documents/TVKiller/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKillerAppDelegate.o /Users/forest/Documents/TVKiller/Classes/TVKillerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideView.o /Users/forest/Documents/TVKiller/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainView.o /Users/forest/Documents/TVKiller/Classes/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainViewController.o /Users/forest/Documents/TVKiller/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideViewController.o /Users/forest/Documents/TVKiller/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller normal armv6
+cGenerateDSYMFile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app.dSYM /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller
+cTouch /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
+cCodeSign /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004BB757EB0000000000000110
+t1270306795
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/Availability.h
+c000000004ABDC79900000000000019F9
+t1253951385
+s6649
+
+N/Users/forest/Documents/TVKiller/Classes/FlipsideView.h
+c000000004BDF544200000000000000BC
+t1272927298
+s188
+
+N/Users/forest/Documents/TVKiller/Classes/FlipsideView.m
+c000000004BDF544200000000000001BC
+t1272927298
+s444
+i"FlipsideView.h"
+
+N/Users/forest/Documents/TVKiller/Classes/FlipsideViewController.h
+c000000004BDF54420000000000000211
+t1272927298
+s529
+
+N/Users/forest/Documents/TVKiller/Classes/FlipsideViewController.m
+c000000004BDF54420000000000000450
+t1272927298
+s1104
+i"FlipsideViewController.h"
+
+N/Users/forest/Documents/TVKiller/Classes/MainView.h
+c000000004BDF544200000000000000CC
+t1272927298
+s204
+i<UIKit/UIKit.h>
+
+N/Users/forest/Documents/TVKiller/Classes/MainView.m
+c000000004BDF544200000000000001B0
+t1272927298
+s432
+i"MainView.h"
+
+N/Users/forest/Documents/TVKiller/Classes/MainViewController.h
+c000000004BDF5442000000000000012C
+t1272927298
+s300
+i"FlipsideViewController.h"
+
+N/Users/forest/Documents/TVKiller/Classes/MainViewController.m
+c000000004BDF544200000000000007E8
+t1272927298
+s2024
+i"MainViewController.h"
+i"MainView.h"
+
+N/Users/forest/Documents/TVKiller/Classes/TVKillerAppDelegate.h
+c000000004BDF544200000000000001C1
+t1272927298
+s449
+
+N/Users/forest/Documents/TVKiller/Classes/TVKillerAppDelegate.m
+c000000004BDF5442000000000000032D
+t1272927298
+s813
+i"TVKillerAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/forest/Documents/TVKiller/FlipsideView.xib
+c000000004BDF54420000000000002685
+t1272927298
+s9861
+
+N/Users/forest/Documents/TVKiller/MainView.xib
+c000000004BDF544200000000000023C3
+t1272927298
+s9155
+
+N/Users/forest/Documents/TVKiller/MainWindow.xib
+c000000004BDF54420000000000001E14
+t1272927298
+s7700
+
+N/Users/forest/Documents/TVKiller/TVKiller_Prefix.pch
+c000000004BDF54420000000000000142
+t1272927298
+s322
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
+t1272927371
+s306
+
+N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app.dSYM
+t1272927371
+s102
+
+N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/FlipsideView.nib
+t1272927369
+s1802
+
+N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/Info.plist
+t1272927368
+s634
+
+N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/MainView.nib
+t1272927369
+s2042
+
+N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/MainWindow.nib
+t1272927370
+s1380
+
+N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/PkgInfo
+t1272927368
+s8
+
+N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/ResourceRules.plist
+t1272927368
+s485
+
+N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller
+t1272927371
+s23876
+
+N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideView.o
+t1272927371
+s9596
+
+N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideViewController.o
+t1272927371
+s32952
+
+N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainView.o
+t1272927371
+s9536
+
+N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainViewController.o
+t1272927371
+s33256
+
+N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKiller.LinkFileList
+c000000004BDF548800000000000002DB
+t1272927368
+s731
+
+N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKillerAppDelegate.o
+t1272927371
+s42468
+
+N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/main.o
+t1272927371
+s6536
+
+N/Users/forest/Documents/TVKiller/main.m
+c000000004BDF5442000000000000016C
+t1272927298
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch.gch
+t1272927371
+s7876792
+
+NTVKiller-Info.plist
+c000000004BDF5442000000000000038D
+t1272927298
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies294620168#294620168#0(0"0(0#1#0"4375320#0"0#
+
+CCodeSign /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
+s294620171.909522
+e294620171.975259
+r1
+xCodeSign
+x/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
+o/usr/local/bin/ldid2: line 11: /usr/local/bin/ldid: Permission denied
+lSLF07#2@42"CodeSign build/Debug-iphoneos/TVKiller.app294620171#294620171#0(70"/usr/local/bin/ldid2: line 11: /usr/local/bin/ldid: Permission denied0(0#0#66"/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app2475720736#494"    cd /Users/forest/Documents/TVKiller    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/local/bin/ldid2 -f -s "iPhone Developer" --resource-rules=/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/ResourceRules.plist -gta /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app0#
+
+CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideView.o /Users/forest/Documents/TVKiller/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294620171.388348
+e294620171.526599
+r1
+xCompileC
+xbuild/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideView.o
+x/Users/forest/Documents/TVKiller/Classes/FlipsideView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/forest/Documents/TVKiller/Classes/FlipsideView.m294620171#294620171#0(0"0(0#0#55"/Users/forest/Documents/TVKiller/Classes/FlipsideView.m2475720736#1706"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/Classes/FlipsideView.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideView.o0#
+
+CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideViewController.o /Users/forest/Documents/TVKiller/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294620171.636641
+e294620171.786630
+r1
+xCompileC
+xbuild/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/forest/Documents/TVKiller/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/forest/Documents/TVKiller/Classes/FlipsideViewController.m294620171#294620171#0(0"0(0#0#65"/Users/forest/Documents/TVKiller/Classes/FlipsideViewController.m2475720736#1726"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/Classes/FlipsideViewController.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideViewController.o0#
+
+CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainView.o /Users/forest/Documents/TVKiller/Classes/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294620171.468157
+e294620171.636398
+r1
+xCompileC
+xbuild/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainView.o
+x/Users/forest/Documents/TVKiller/Classes/MainView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/forest/Documents/TVKiller/Classes/MainView.m294620171#294620171#0(0"0(0#0#51"/Users/forest/Documents/TVKiller/Classes/MainView.m2475720736#1698"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/Classes/MainView.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainView.o0#
+
+CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainViewController.o /Users/forest/Documents/TVKiller/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294620171.526839
+e294620171.696105
+r1
+xCompileC
+xbuild/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainViewController.o
+x/Users/forest/Documents/TVKiller/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/forest/Documents/TVKiller/Classes/MainViewController.m294620171#294620171#0(0"0(0#0#61"/Users/forest/Documents/TVKiller/Classes/MainViewController.m2475720736#1718"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/Classes/MainViewController.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKillerAppDelegate.o /Users/forest/Documents/TVKiller/Classes/TVKillerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294620171.278321
+e294620171.467926
+r1
+xCompileC
+xbuild/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKillerAppDelegate.o
+x/Users/forest/Documents/TVKiller/Classes/TVKillerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/forest/Documents/TVKiller/Classes/TVKillerAppDelegate.m294620171#294620171#0(0"0(0#0#62"/Users/forest/Documents/TVKiller/Classes/TVKillerAppDelegate.m2475720736#1720"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/Classes/TVKillerAppDelegate.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKillerAppDelegate.o0#
+
+CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/main.o /Users/forest/Documents/TVKiller/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294620171.275764
+e294620171.388107
+r1
+xCompileC
+xbuild/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/main.o
+x/Users/forest/Documents/TVKiller/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/forest/Documents/TVKiller/main.m294620171#294620171#0(0"0(0#0#39"/Users/forest/Documents/TVKiller/main.m4375320#1682"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/main.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/forest/Documents/TVKiller/FlipsideView.xib
+s294620168.629312
+e294620169.483809
+r1
+xCompileXIB
+x/Users/forest/Documents/TVKiller/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib294620168#294620169#0(0"0(0#0#49"/Users/forest/Documents/TVKiller/FlipsideView.xib4375320#455"    cd /Users/forest/Documents/TVKiller    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/FlipsideView.nib /Users/forest/Documents/TVKiller/FlipsideView.xib0#
+
+CCompileXIB /Users/forest/Documents/TVKiller/MainView.xib
+s294620168.631014
+e294620169.491831
+r1
+xCompileXIB
+x/Users/forest/Documents/TVKiller/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib294620168#294620169#0(0"0(0#0#45"/Users/forest/Documents/TVKiller/MainView.xib2475720736#447"    cd /Users/forest/Documents/TVKiller    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/MainView.nib /Users/forest/Documents/TVKiller/MainView.xib0#
+
+CCompileXIB /Users/forest/Documents/TVKiller/MainWindow.xib
+s294620169.484007
+e294620170.234079
+r1
+xCompileXIB
+x/Users/forest/Documents/TVKiller/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib294620169#294620170#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#47"/Users/forest/Documents/TVKiller/MainWindow.xib2475720736#451"    cd /Users/forest/Documents/TVKiller    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/MainWindow.nib /Users/forest/Documents/TVKiller/MainWindow.xib0#
+
+CCpResource build/Debug-iphoneos/TVKiller.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+s294620168.602729
+e294620168.629110
+r1
+xCpResource
+xbuild/Debug-iphoneos/TVKiller.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist294620168#294620168#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist4375320#471"    cd /Users/forest/Documents/TVKiller    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app0#
+
+CGenerateDSYMFile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app.dSYM /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller
+s294620171.850966
+e294620171.901835
+r1
+xGenerateDSYMFile
+x/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app.dSYM
+x/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/TVKiller.app.dSYM build/Debug-iphoneos/TVKiller.app/TVKiller294620171#294620171#0(0"0(0#0#75"/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller2475720736#347"    cd /Users/forest/Documents/TVKiller    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller -o /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app.dSYM0#
+
+CLd /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller normal armv6
+s294620171.786924
+e294620171.850716
+r1
+xLd
+x/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller
+xnormal
+xarmv6
+lSLF07#2@80"Link /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller294620171#294620171#0(0"0(0#0#0"2475720736#870"    cd /Users/forest/Documents/TVKiller    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/forest/Documents/TVKiller/build/Debug-iphoneos -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -filelist /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKiller.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller0#
+
+CProcessInfoPlistFile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/Info.plist TVKiller-Info.plist
+s294620168.614248
+e294620168.621177
+r1
+xProcessInfoPlistFile
+x/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/Info.plist
+xTVKiller-Info.plist
+lSLF07#2@27"Process TVKiller-Info.plist294620168#294620168#0(0"0(0#0#52"/Users/forest/Documents/TVKiller/TVKiller-Info.plist2475720736#542"    cd /Users/forest/Documents/TVKiller    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TVKiller-Info.plist -genpkginfo /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/ResourceRules.plist -o /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/Info.plist0#
+
+CProcessPCH /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch.gch TVKiller_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294620170.234608
+e294620171.275525
+r1
+xProcessPCH
+x/var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch.gch
+xTVKiller_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile TVKiller_Prefix.pch294620170#294620171#0(0"0(0#0#52"/Users/forest/Documents/TVKiller/TVKiller_Prefix.pch4375320#1585"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -c /Users/forest/Documents/TVKiller/TVKiller_Prefix.pch -o /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch.gch0#
+
+CTouch /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
+s294620171.902023
+e294620171.909240
+r1
+xTouch
+x/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
+lSLF07#2@72"Touch /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app294620171#294620171#0(0"0(0#0#0"2475720736#253"    cd /Users/forest/Documents/TVKiller    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app0#
+

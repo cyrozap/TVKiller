@@ -1,0 +1,19 @@
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:9: error: no type or storage class may be specified here before 'implementation'
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:15: error: initializer element is not constant
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:17: error: initializer element is not constant
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: no '-initWithContentsOfURL:error:' method found
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: (Messages without a matching method signature
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: will be assumed to return 'id' and accept
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: '...' as arguments.)
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: error: initializer element is not constant
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:22: error: expected identifier or '(' before '[' token
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:25: error: expected identifier or '(' before '[' token
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:27: error: expected identifier or '(' before '[' token
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:28: error: expected identifier or '(' before '[' token
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:31: error: expected ';' before '{' token
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: '@end' missing in implementation context
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: property 'player' requires method '-player' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: property 'player' requires the method 'setPlayer:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: incomplete implementation of class 'AVAudioPlayer'
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: method definition for '-audioPlayerDidFinishPlaying:successfully:' not found
