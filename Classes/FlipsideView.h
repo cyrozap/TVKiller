@@ -6,7 +6,7 @@
 //  This work is licensed under a Creative Commons GNU General Public License License.
 
 @interface FlipsideView : UIView {
-	
+	UIWebView *webView;
 }
 
 @end

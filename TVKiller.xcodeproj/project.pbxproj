@@ -19,9 +19,9 @@
 		289233A70DB2D0840083E9F9 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A50DB2D0840083E9F9 /* MainView.m */; };
 		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
 		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
-		8564AC4F1196172B0009E35C /* AVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564AC4E1196172B0009E35C /* AVAudioPlayer.m */; };
 		8564AC5F11961C4A0009E35C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8564AC5E11961C4A0009E35C /* AVFoundation.framework */; };
 		8564AC7E119641D30009E35C /* codes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8564AC7D119641D30009E35C /* codes.mp3 */; };
+		859ECA4A11965FC200697AF5 /* AVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564AC4E1196172B0009E35C /* AVAudioPlayer.m */; };
 		85C42BB8118F9B6300F75440 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C42BB7118F9B6300F75440 /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
@@ -230,7 +230,7 @@
 				289233A70DB2D0840083E9F9 /* MainView.m in Sources */,
 				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
 				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
-				8564AC4F1196172B0009E35C /* AVAudioPlayer.m in Sources */,
+				859ECA4A11965FC200697AF5 /* AVAudioPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,11 @@
 
 @implementation FlipsideView
 
+- (void)applicationDidFinishLaunching:(UIApplication *)application {
+    
+	[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://github.com/cyrozap/TVKiller/raw/master/README"]]];
+	
+}
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
