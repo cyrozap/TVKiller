@@ -4,51 +4,41 @@
 //  Created by cyrozap on 5/8/10.
 //  This work is licensed under a Creative Commons GNU General Public License License.
 
-#import "AVAudioPlayer.h"
+//#import "AVAudioPlayer.h"
+#import <AVFoundation/AVFoundation.h>
 
 @implementation AVAudioPlayer
-
-@synthesize player; // the player object
-
-NSString *soundFilePath =
-[[NSBundle mainBundle] pathForResource: @"%@/codes.mp3"
-								ofType: @"mp3"];
-
-NSURL *fileURL = [[NSURL alloc] initFileURLWithPath: soundFilePath];
-
-AVAudioPlayer *newPlayer =
-[[AVAudioPlayer alloc] initWithContentsOfURL: fileURL
-									   error: nil];
-[fileURL release];
-
-self.player = newPlayer;
-[newPlayer release];
-
-[player prepareToPlay];
-[player setDelegate: self];
-
-- (void) audioPlayerDidFinishPlaying: (AVAudioPlayer *) player
-                        successfully: (BOOL) completed {
-    if (completed == YES) {
-        [self.button forState: UIControlStateNormal];
+AVAudioPlayer* player;
+//...
+/* Both these actions are hooked up to buttons in IB */
+- (IBAction)startPlayback:(UIButton *)sender {
+    if(!player){
+        /*
+         * Here we grab our path to our resource
+         */
+        NSString* resourcePath = [[NSBundle mainBundle] resourcePath];
+        resourcePath = [resourcePath stringByAppendingString:@"/codes.wav"];
+        NSLog(@"Path to play: %@", resourcePath);
+        NSError* err;
+		
+        //Initialize our player pointing to the path to our resource
+        player = [[AVAudioPlayer alloc] initWithContentsOfURL:
+				  [NSURL fileURLWithPath:resourcePath] error:&err];
+		
+        if( err ){
+            //bail!
+            NSLog(@"Failed with reason: %@", [err localizedDescription]);
+        }
+        else{
+            //set our delegate and begin playback
+            player.delegate = self;
+            [player play];
+        }
     }
 }
-
-- (IBAction) playOrPause: (id) sender {
-	
-    // if already playing, then pause
-    if (self.player.playing) {
-        [self.button forState: UIControlStateHighlighted];
-        [self.button forState: UIControlStateNormal];
-        [self.player stop];
-		
-		// if stopped or paused, start playing
-    } else {
-        [self.button forState: UIControlStateHighlighted];
-        [self.button forState: UIControlStateNormal];
-        [self.player play];
-		
-    }
+- (IBAction)pausePlayback:(UIButton*)sender {
+    NSLog(@"Player paused at time: %f", player.currentTime);
+    [player pause];
 }
 
 @end

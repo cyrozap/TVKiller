@@ -9,4 +9,5 @@
 	UIWebView *webView;
 }
 
+@property (retain) UIWebView *webView;
 @end

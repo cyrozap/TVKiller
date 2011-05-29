@@ -13,4 +13,5 @@
 	
 }
 
-@property (nonatomic, retain) AVAudioPlayer *player;
+//@property (nonatomic, retain) AVAudioPlayer *player;
+//@property float volume;

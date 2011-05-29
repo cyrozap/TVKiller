@@ -11,18 +11,22 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* FlipsideView.xib */; };
 		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
 		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
 		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
-		289233A60DB2D0840083E9F9 /* FlipsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A30DB2D0840083E9F9 /* FlipsideView.m */; };
 		289233A70DB2D0840083E9F9 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A50DB2D0840083E9F9 /* MainView.m */; };
 		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
-		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
+		852973C41197074F00F376AA /* AVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564AC4E1196172B0009E35C /* AVAudioPlayer.m */; };
 		8564AC5F11961C4A0009E35C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8564AC5E11961C4A0009E35C /* AVFoundation.framework */; };
-		8564AC7E119641D30009E35C /* codes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8564AC7D119641D30009E35C /* codes.mp3 */; };
-		859ECA4A11965FC200697AF5 /* AVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564AC4E1196172B0009E35C /* AVAudioPlayer.m */; };
 		85C42BB8118F9B6300F75440 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C42BB7118F9B6300F75440 /* CoreAudio.framework */; };
+		85CDABF21197196A00122F98 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CDABF11197196A00122F98 /* CoreData.framework */; };
+		85CDABF61197197D00122F98 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CDABF51197197D00122F98 /* AudioToolbox.framework */; };
+		85CDABFA1197198600122F98 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CDABF91197198600122F98 /* MobileCoreServices.framework */; };
+		85CDAC2E1197202F00122F98 /* codes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85CDAC2D1197202F00122F98 /* codes.wav */; };
+		85CDAC651197255100122F98 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
+		85CDAC661197255200122F98 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* FlipsideView.xib */; };
+		85CDAC671197255300122F98 /* FlipsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A30DB2D0840083E9F9 /* FlipsideView.m */; };
+		85CDAC6E119725DA00122F98 /* AVAudioPlayerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDAC6C119725DA00122F98 /* AVAudioPlayerDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +52,13 @@
 		8564AC4D1196172B0009E35C /* AVAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudioPlayer.h; sourceTree = "<group>"; };
 		8564AC4E1196172B0009E35C /* AVAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAudioPlayer.m; sourceTree = "<group>"; };
 		8564AC5E11961C4A0009E35C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		8564AC7D119641D30009E35C /* codes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = codes.mp3; sourceTree = "<group>"; };
 		85C42BB7118F9B6300F75440 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		85CDABF11197196A00122F98 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		85CDABF51197197D00122F98 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		85CDABF91197198600122F98 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		85CDAC2D1197202F00122F98 /* codes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = codes.wav; sourceTree = "<group>"; };
+		85CDAC6C119725DA00122F98 /* AVAudioPlayerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAudioPlayerDelegate.m; sourceTree = "<group>"; };
+		85CDAC6D119725DA00122F98 /* AVAudioPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudioPlayerDelegate.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TVKiller-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TVKiller-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +72,9 @@
 				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
 				85C42BB8118F9B6300F75440 /* CoreAudio.framework in Frameworks */,
 				8564AC5F11961C4A0009E35C /* AVFoundation.framework in Frameworks */,
+				85CDABF21197196A00122F98 /* CoreData.framework in Frameworks */,
+				85CDABF61197197D00122F98 /* AudioToolbox.framework in Frameworks */,
+				85CDABFA1197198600122F98 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +124,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				8564AC7D119641D30009E35C /* codes.mp3 */,
+				85CDAC2D1197202F00122F98 /* codes.wav */,
 				289233A00DB2D0730083E9F9 /* Main View */,
 				281C6CD70DB2D82200F60ACC /* Flipside View */,
 				080E96DDFE201D6D7F000001 /* Application Delegate */,
@@ -122,6 +134,8 @@
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				8564AC4D1196172B0009E35C /* AVAudioPlayer.h */,
 				8564AC4E1196172B0009E35C /* AVAudioPlayer.m */,
+				85CDAC6C119725DA00122F98 /* AVAudioPlayerDelegate.m */,
+				85CDAC6D119725DA00122F98 /* AVAudioPlayerDelegate.h */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -154,6 +168,9 @@
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765580DF743DE002DB57D /* CoreGraphics.framework */,
 				8564AC5E11961C4A0009E35C /* AVFoundation.framework */,
+				85CDABF11197196A00122F98 /* CoreData.framework */,
+				85CDABF51197197D00122F98 /* AudioToolbox.framework */,
+				85CDABF91197198600122F98 /* MobileCoreServices.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,10 +227,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */,
 				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
 				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
-				8564AC7E119641D30009E35C /* codes.mp3 in Resources */,
+				85CDAC2E1197202F00122F98 /* codes.wav in Resources */,
+				85CDAC661197255200122F98 /* FlipsideView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,11 +243,12 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* TVKillerAppDelegate.m in Sources */,
-				289233A60DB2D0840083E9F9 /* FlipsideView.m in Sources */,
 				289233A70DB2D0840083E9F9 /* MainView.m in Sources */,
 				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
-				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
-				859ECA4A11965FC200697AF5 /* AVAudioPlayer.m in Sources */,
+				852973C41197074F00F376AA /* AVAudioPlayer.m in Sources */,
+				85CDAC651197255100122F98 /* FlipsideViewController.m in Sources */,
+				85CDAC671197255300122F98 /* FlipsideView.m in Sources */,
+				85CDAC6E119725DA00122F98 /* AVAudioPlayerDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

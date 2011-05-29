@@ -1,22 +1,27 @@
 TTVKiller
 v7
 r0
-t295067595.445796
+t295118333.044499
 cCheck dependencies
 cCpResource build/Debug-iphoneos/TVKiller.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/Info.plist TVKiller-Info.plist
-cCompileXIB /Users/forest/Documents/TVKiller/FlipsideView.xib
 cCompileXIB /Users/forest/Documents/TVKiller/MainView.xib
 cCompileXIB /Users/forest/Documents/TVKiller/MainWindow.xib
-cCpResource build/Debug-iphoneos/TVKiller.app/codes.mp3 codes.mp3
+cCpResource build/Debug-iphoneos/TVKiller.app/codes.wav codes.wav
+cCompileXIB /Users/forest/Documents/TVKiller/FlipsideView.xib
 cProcessPCH /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch.gch TVKiller_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/main.o /Users/forest/Documents/TVKiller/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKillerAppDelegate.o /Users/forest/Documents/TVKiller/Classes/TVKillerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideView.o /Users/forest/Documents/TVKiller/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainView.o /Users/forest/Documents/TVKiller/Classes/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainViewController.o /Users/forest/Documents/TVKiller/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideViewController.o /Users/forest/Documents/TVKiller/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayer.o /Users/forest/Documents/TVKiller/AVAudioPlayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideViewController.o /Users/forest/Documents/TVKiller/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideView.o /Users/forest/Documents/TVKiller/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayerDelegate.o /Users/forest/Documents/TVKiller/AVAudioPlayerDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller normal armv6
+cGenerateDSYMFile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app.dSYM /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller
+cTouch /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
+cCodeSign /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
 c000000004BB757EB0000000000000110
@@ -33,10 +38,30 @@ c000000004ABDBEB0000000000001AD10
 t1253949104
 s109840
 
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004ABDBEAE00000000000000EB
+t1253949102
+s235
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004ABDBC2D00000000002E0B30
+t1253948461
+s3017520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000000000000000000000000000
+t2
+s0
+
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
 c000000004ABDBB6400000000000D0230
 t1253948260
 s852528
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004ABDBE6E0000000000296690
+t1253949038
+s2713232
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c000000004ABDBA1300000000005F4900
@@ -52,6 +77,11 @@ N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/
 c000000004ABDBDA40000000000001355
 t1253948836
 s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004ABDBE530000000000026020
+t1253949011
+s155680
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000004ABDD0D10000000000000788
@@ -69,17 +99,17 @@ t1253951385
 s6649
 
 N/Users/forest/Documents/TVKiller/AVAudioPlayer.h
-c000000004BE619C20000000000000172
-t1273371074
-s370
+c000000004BE6ECDD000000000000018E
+t1273425117
+s398
 i<UIKit/UIKit.h>
 i<Foundation/Foundation.h>
 
 N/Users/forest/Documents/TVKiller/AVAudioPlayer.m
-c000000004BE619C20000000000000532
-t1273371074
-s1330
-i"AVAudioPlayer.h"
+c000000004BE6EF320000000000000503
+t1273425714
+s1283
+i<AVFoundation/AVFoundation.h>
 
 N/Users/forest/Documents/TVKiller/AVAudioPlayerController.h
 c000000004BE60C300000000000000125
@@ -94,15 +124,28 @@ t1273368773
 s226
 i"AVAudioPlayerController.h"
 
+N/Users/forest/Documents/TVKiller/AVAudioPlayerDelegate.h
+c000000004BE6EE7C00000000000000FD
+t1273425532
+s253
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/forest/Documents/TVKiller/AVAudioPlayerDelegate.m
+c000000004BE6EE5800000000000000DA
+t1273425496
+s218
+i"AVAudioPlayerDelegate.h"
+
 N/Users/forest/Documents/TVKiller/Classes/FlipsideView.h
-c000000004BE6264F00000000000000E0
-t1273374287
-s224
+c000000004BE6E4450000000000000107
+t1273422917
+s263
 
 N/Users/forest/Documents/TVKiller/Classes/FlipsideView.m
-c000000004BE626D9000000000000029F
-t1273374425
-s671
+c000000004BE6E45500000000000002B4
+t1273422933
+s692
 i"FlipsideView.h"
 
 N/Users/forest/Documents/TVKiller/Classes/FlipsideViewController.h
@@ -159,14 +202,27 @@ t1273374163
 s21194
 
 N/Users/forest/Documents/TVKiller/MainView.xib
-c000000004BE6119A0000000000005981
-t1273368986
-s22913
+c000000004BE6EE520000000000005E3D
+t1273425490
+s24125
 
 N/Users/forest/Documents/TVKiller/MainWindow.xib
 c000000004BDF54420000000000001E14
 t1272927298
 s7700
+
+N/Users/forest/Documents/TVKiller/NSData.h
+c000000004BE6CEB500000000000000DF
+t1273417397
+s223
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/forest/Documents/TVKiller/NSData.m
+c000000004BE6CEB500000000000000AD
+t1273417397
+s173
+i"NSData.h"
 
 N/Users/forest/Documents/TVKiller/TVKiller_Prefix.pch
 c000000004BDF54420000000000000142
@@ -177,11 +233,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
-t1273374571
-s340
+t1273425533
+s374
 
 N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app.dSYM
-t1273374571
+t1273425532
 s102
 
 N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/FlipsideView.nib
@@ -193,8 +249,8 @@ t1272927368
 s634
 
 N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/MainView.nib
-t1273368990
-s2914
+t1273425504
+s2988
 
 N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/MainWindow.nib
 t1272927370
@@ -209,24 +265,36 @@ t1272927368
 s485
 
 N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller
-t1273374571
-s24248
+t1273425532
+s25856
+
+N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller.app
+t2
+s0
 
 N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/codes.mp3
 t1273367277
 s481070
 
+N/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/codes.wav
+t1273424065
+s2649644
+
 N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayer.o
-t2
-s0
+t1273425244
+s16052
 
 N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayerController.o
 t2
 s0
 
+N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayerDelegate.o
+t1273425532
+s5168
+
 N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideView.o
-t1273374570
-s14836
+t1273422933
+s16020
 
 N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideViewController.o
 t1273371075
@@ -240,10 +308,14 @@ N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.b
 t1273371075
 s33256
 
+N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/NSData.o
+t2
+s0
+
 N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKiller.LinkFileList
-c000000004BE628470000000000000354
-t1273374791
-s852
+c000000004BE6EE5F00000000000003D5
+t1273425503
+s981
 
 N/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKillerAppDelegate.o
 t1273371075
@@ -257,6 +329,11 @@ N/Users/forest/Documents/TVKiller/codes.mp3
 c000000004BE5EA76000000000007572E
 t1273358966
 s481070
+
+N/Users/forest/Documents/TVKiller/codes.wav
+c000000004BE6E75D0000000000286E2C
+t1273423709
+s2649644
 
 N/Users/forest/Documents/TVKiller/main.m
 c000000004BE619C3000000000000017D
@@ -275,21 +352,21 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies295067595#295067595#0(0"0(0#1#0"2475720736#0"0#
+lSLF07#2@18"Check dependencies295118332#295118332#0(0"0(0#1#0"2475720736#0"0#
 
 CCodeSign /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
-s295067558.080639
-e295067558.127315
+s295118333.002642
+e295118333.044425
 r1
 xCodeSign
 x/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
 o/usr/local/bin/ldid2: line 11: /usr/local/bin/ldid: Permission denied
-lSLF07#2@42"CodeSign build/Debug-iphoneos/TVKiller.app295067558#295067558#0(70"/usr/local/bin/ldid2: line 11: /usr/local/bin/ldid: Permission denied0(0#0#66"/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app2475720736#494"    cd /Users/forest/Documents/TVKiller    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/local/bin/ldid2 -f -s "iPhone Developer" --resource-rules=/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/ResourceRules.plist -gta /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app0#
+lSLF07#2@42"CodeSign build/Debug-iphoneos/TVKiller.app295118333#295118333#0(70"/usr/local/bin/ldid2: line 11: /usr/local/bin/ldid: Permission denied0(0#0#66"/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app2475720736#494"    cd /Users/forest/Documents/TVKiller    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/local/bin/ldid2 -f -s "iPhone Developer" --resource-rules=/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/ResourceRules.plist -gta /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app0#
 
 CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayer.o /Users/forest/Documents/TVKiller/AVAudioPlayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s295067595.359361
-e295067595.445630
-r0
+s295118044.398649
+e295118044.619996
+r1
 xCompileC
 xbuild/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayer.o
 x/Users/forest/Documents/TVKiller/AVAudioPlayer.m
@@ -297,26 +374,33 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:9: error: no type or storage class may be specified here before 'implementation'
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:15: error: initializer element is not constant
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:17: error: initializer element is not constant
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: no '-initWithContentsOfURL:error:' method found
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: (Messages without a matching method signature
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: will be assumed to return 'id' and accept
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: '...' as arguments.)
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: error: initializer element is not constant
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:22: error: expected identifier or '(' before '[' token
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:25: error: expected identifier or '(' before '[' token
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:27: error: expected identifier or '(' before '[' token
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:28: error: expected identifier or '(' before '[' token
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:31: error: expected ';' before '{' token
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: '@end' missing in implementation context
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: property 'player' requires method '-player' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: property 'player' requires the method 'setPlayer:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: incomplete implementation of class 'AVAudioPlayer'
-o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: method definition for '-audioPlayerDidFinishPlaying:successfully:' not found
-lSLF07#2@56"Compile /Users/forest/Documents/TVKiller/AVAudioPlayer.m295067595#295067595#0(2183"/Users/forest/Documents/TVKiller/AVAudioPlayer.m:9: error: no type or storage class may be specified here before 'implementation'/Users/forest/Documents/TVKiller/AVAudioPlayer.m:15: error: initializer element is not constant/Users/forest/Documents/TVKiller/AVAudioPlayer.m:17: error: initializer element is not constant/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: no '-initWithContentsOfURL:error:' method found/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: (Messages without a matching method signature/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: will be assumed to return 'id' and accept/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: '...' as arguments.)/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: error: initializer element is not constant/Users/forest/Documents/TVKiller/AVAudioPlayer.m:22: error: expected identifier or '(' before '[' token/Users/forest/Documents/TVKiller/AVAudioPlayer.m:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token/Users/forest/Documents/TVKiller/AVAudioPlayer.m:25: error: expected identifier or '(' before '[' token/Users/forest/Documents/TVKiller/AVAudioPlayer.m:27: error: expected identifier or '(' before '[' token/Users/forest/Documents/TVKiller/AVAudioPlayer.m:28: error: expected identifier or '(' before '[' token/Users/forest/Documents/TVKiller/AVAudioPlayer.m:31: error: expected ';' before '{' token/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: '@end' missing in implementation context/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: property 'player' requires method '-player' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: property 'player' requires the method 'setPlayer:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: incomplete implementation of class 'AVAudioPlayer'/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: method definition for '-audioPlayerDidFinishPlaying:successfully:' not found17(4@70"No type or storage class may be specified here before 'implementation'295067595#0#130#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#9#0#9#0#0"0(4@35"Initializer element is not constant295067595#130#96#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#15#0#15#0#35"initializer element is not constant0(4@35"Initializer element is not constant295067595#226#96#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#17#0#17#0#35"initializer element is not constant0(22@47"No '-initWithContentsOfURL:error:' method found295067595#322#110#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#21#0#21#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)295067595#432#108#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#21#0#21#0#0"0(4@35"Initializer element is not constant295067595#727#96#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#21#0#21#0#35"initializer element is not constant0(4@43"Expected identifier or '(' before '[' token295067595#823#104#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#22#0#22#0#19"expected * before *0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '.' token295067595#927#126#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#24#0#24#0#19"expected * before *0(4@43"Expected identifier or '(' before '[' token295067595#1053#104#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#25#0#25#0#19"expected * before *0(4@43"Expected identifier or '(' before '[' token295067595#1157#104#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#27#0#27#0#19"expected * before *0(4@43"Expected identifier or '(' before '[' token295067595#1261#104#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#28#0#28#0#19"expected * before *0(4@29"Expected ';' before '{' token295067595#1365#90#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#31#0#31#0#19"expected * before *0(22@40"'@end' missing in implementation context295067595#1455#103#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#54#0#54#0#40"'@end' missing in implementation context0(22@120"Property 'player' requires method '-player' to be defined - use @synthesize, @dynamic or provide a method implementation295067595#1558#183#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#54#0#54#0#0"0(22@127"Property 'player' requires the method 'setPlayer:' to be defined - use @synthesize, @dynamic or provide a method implementation295067595#1741#190#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#54#0#54#0#0"0(22@50"Incomplete implementation of class 'AVAudioPlayer'295067595#1931#113#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#54#0#54#0#38"incomplete implementation of class '*'0(22@76"Method definition for '-audioPlayerDidFinishPlaying:successfully:' not found295067595#2044#139#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295063874#54#0#54#0#35"method definition for '*' not found0(0#0#48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m2475720736#1700"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/AVAudioPlayer.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayer.o1#
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m: In function '-[AVAudioPlayer startPlayback:]':
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:34: warning: class 'AVAudioPlayer' does not implement the 'AVAudioPlayerDelegate' protocol
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m: At top level:
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'numberOfChannels' requires method '-numberOfChannels' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'duration' requires method '-duration' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'url' requires method '-url' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'data' requires method '-data' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'volume' requires method '-volume' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'volume' requires the method 'setVolume:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'currentTime' requires method '-currentTime' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'currentTime' requires the method 'setCurrentTime:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'numberOfLoops' requires method '-numberOfLoops' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'numberOfLoops' requires the method 'setNumberOfLoops:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'meteringEnabled' requires the method 'setMeteringEnabled:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: incomplete implementation of class 'AVAudioPlayer'
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-averagePowerForChannel:' not found
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-peakPowerForChannel:' not found
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-updateMeters' not found
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-stop' not found
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-pause' not found
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-play' not found
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-prepareToPlay' not found
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-initWithData:error:' not found
+o/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-initWithContentsOfURL:error:' not found
+lSLF07#2@56"Compile /Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#295118044#0(3926"/Users/forest/Documents/TVKiller/AVAudioPlayer.m: In function '-[AVAudioPlayer startPlayback:]':/Users/forest/Documents/TVKiller/AVAudioPlayer.m:34: warning: class 'AVAudioPlayer' does not implement the 'AVAudioPlayerDelegate' protocol/Users/forest/Documents/TVKiller/AVAudioPlayer.m: At top level:/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'numberOfChannels' requires method '-numberOfChannels' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'duration' requires method '-duration' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'url' requires method '-url' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'data' requires method '-data' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'volume' requires method '-volume' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'volume' requires the method 'setVolume:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'currentTime' requires method '-currentTime' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'currentTime' requires the method 'setCurrentTime:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'numberOfLoops' requires method '-numberOfLoops' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'numberOfLoops' requires the method 'setNumberOfLoops:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'meteringEnabled' requires the method 'setMeteringEnabled:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: incomplete implementation of class 'AVAudioPlayer'/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-averagePowerForChannel:' not found/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-peakPowerForChannel:' not found/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-updateMeters' not found/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-stop' not found/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-pause' not found/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-play' not found/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-prepareToPlay' not found/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-initWithData:error:' not found/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-initWithContentsOfURL:error:' not found25(22@77"Class 'AVAudioPlayer' does not implement the 'AVAudioPlayerDelegate' protocol295118044#97#140#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#34#0#34#0#45"class '*' does not implement the '*' protocol0(23@13"At top level:295118044#237#64#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#0#0#0#0#0"0(22@140"Property 'numberOfChannels' requires method '-numberOfChannels' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#301#203#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@124"Property 'duration' requires method '-duration' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#504#187#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@124"Property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#691#187#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@131"Property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#878#194#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@114"Property 'url' requires method '-url' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#1072#177#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@116"Property 'data' requires method '-data' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#1249#179#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@120"Property 'volume' requires method '-volume' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#1428#183#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@127"Property 'volume' requires the method 'setVolume:' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#1611#190#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@130"Property 'currentTime' requires method '-currentTime' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#1801#193#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@137"Property 'currentTime' requires the method 'setCurrentTime:' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#1994#200#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@134"Property 'numberOfLoops' requires method '-numberOfLoops' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#2194#197#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@141"Property 'numberOfLoops' requires the method 'setNumberOfLoops:' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#2391#204#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@145"Property 'meteringEnabled' requires the method 'setMeteringEnabled:' to be defined - use @synthesize, @dynamic or provide a method implementation295118044#2595#208#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#0"0(22@50"Incomplete implementation of class 'AVAudioPlayer'295118044#2803#113#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#38"incomplete implementation of class '*'0(22@58"Method definition for '-averagePowerForChannel:' not found295118044#2916#121#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#35"method definition for '*' not found0(22@55"Method definition for '-peakPowerForChannel:' not found295118044#3037#118#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#35"method definition for '*' not found0(22@47"Method definition for '-updateMeters' not found295118044#3155#110#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#35"method definition for '*' not found0(22@39"Method definition for '-stop' not found295118044#3265#102#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#35"method definition for '*' not found0(22@40"Method definition for '-pause' not found295118044#3367#103#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#35"method definition for '*' not found0(22@39"Method definition for '-play' not found295118044#3470#102#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#35"method definition for '*' not found0(22@48"Method definition for '-prepareToPlay' not found295118044#3572#111#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#35"method definition for '*' not found0(22@54"Method definition for '-initWithData:error:' not found295118044#3683#117#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#35"method definition for '*' not found0(22@63"Method definition for '-initWithContentsOfURL:error:' not found295118044#3800#126#0(6@48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m295118044#44#0#44#0#35"method definition for '*' not found0(0#0#48"/Users/forest/Documents/TVKiller/AVAudioPlayer.m2475720736#1700"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/AVAudioPlayer.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayer.o0#
 
 CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayerController.o /Users/forest/Documents/TVKiller/AVAudioPlayerController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s295061573.773791
@@ -334,9 +418,22 @@ o/Users/forest/Documents/TVKiller/AVAudioPlayerController.h:11: error: expected 
 o/Users/forest/Documents/TVKiller/AVAudioPlayerController.m:14: warning: cannot find interface declaration for 'AVAudioPlayerController'
 lSLF07#2@66"Compile /Users/forest/Documents/TVKiller/AVAudioPlayerController.m295061573#295061574#0(327"In file included from /Users/forest/Documents/TVKiller/AVAudioPlayerController.m:8:/Users/forest/Documents/TVKiller/AVAudioPlayerController.h:11: error: expected identifier before '{' token/Users/forest/Documents/TVKiller/AVAudioPlayerController.m:14: warning: cannot find interface declaration for 'AVAudioPlayerController'2(4@36"Expected identifier before '{' token295061574#84#107#2(7@80"In file included from /Users/forest/Documents/TVKiller/AVAudioPlayerController.m295061574#4294967295#0#0(6@58"/Users/forest/Documents/TVKiller/AVAudioPlayerController.m295061573#8#0#8#0#0"0(13@98"Expected identifier before '{' token in /Users/forest/Documents/TVKiller/AVAudioPlayerController.h295061574#4294967295#0#0(6@58"/Users/forest/Documents/TVKiller/AVAudioPlayerController.h295060400#11#0#11#0#0"0(6@58"/Users/forest/Documents/TVKiller/AVAudioPlayerController.h295060400#11#0#11#0#19"expected * before *0(22@63"Cannot find interface declaration for 'AVAudioPlayerController'295061574#191#136#0(6@58"/Users/forest/Documents/TVKiller/AVAudioPlayerController.m295061573#14#0#14#0#0"0(0#0#58"/Users/forest/Documents/TVKiller/AVAudioPlayerController.m2475720736#1720"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/AVAudioPlayerController.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayerController.o1#
 
+CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayerDelegate.o /Users/forest/Documents/TVKiller/AVAudioPlayerDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295118332.722072
+e295118332.843951
+r1
+xCompileC
+xbuild/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayerDelegate.o
+x/Users/forest/Documents/TVKiller/AVAudioPlayerDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/forest/Documents/TVKiller/AVAudioPlayerDelegate.m295118332#295118332#0(0"0(0#0#56"/Users/forest/Documents/TVKiller/AVAudioPlayerDelegate.m2475720736#1716"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/AVAudioPlayerDelegate.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/AVAudioPlayerDelegate.o0#
+
 CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideView.o /Users/forest/Documents/TVKiller/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s295067370.512780
-e295067370.709311
+s295115733.578382
+e295115733.951076
 r1
 xCompileC
 xbuild/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideView.o
@@ -345,7 +442,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/forest/Documents/TVKiller/Classes/FlipsideView.m295067370#295067370#0(0"0(0#0#55"/Users/forest/Documents/TVKiller/Classes/FlipsideView.m2475720736#1706"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/Classes/FlipsideView.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideView.o0#
+lSLF07#2@63"Compile /Users/forest/Documents/TVKiller/Classes/FlipsideView.m295115733#295115733#0(0"0(0#0#55"/Users/forest/Documents/TVKiller/Classes/FlipsideView.m2475720736#1706"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/Classes/FlipsideView.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideView.o0#
 
 CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/FlipsideViewController.o /Users/forest/Documents/TVKiller/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s295063875.727913
@@ -386,6 +483,35 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@69"Compile /Users/forest/Documents/TVKiller/Classes/MainViewController.m295063875#295063875#0(0"0(0#0#61"/Users/forest/Documents/TVKiller/Classes/MainViewController.m2475720736#1718"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/Classes/MainViewController.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/MainViewController.o0#
 
+CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/NSData.o /Users/forest/Documents/TVKiller/NSData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295110209.410992
+e295110209.511163
+r0
+xCompileC
+xbuild/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/NSData.o
+x/Users/forest/Documents/TVKiller/NSData.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/forest/Documents/TVKiller/NSData.m:8:
+o/Users/forest/Documents/TVKiller/NSData.h:11: error: duplicate interface declaration for class 'NSData'
+o/Users/forest/Documents/TVKiller/NSData.h:13: error: redefinition of 'struct NSData'
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: incomplete implementation of class 'NSData'
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: method definition for '-bytes' not found
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: method definition for '-length' not found
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: incomplete implementation of class 'NSData'
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: method definition for '-copyWithZone:' not found
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: class 'NSData' does not fully implement the 'NSCopying' protocol
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: incomplete implementation of class 'NSData'
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: method definition for '-mutableCopyWithZone:' not found
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: class 'NSData' does not fully implement the 'NSMutableCopying' protocol
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: incomplete implementation of class 'NSData'
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: method definition for '-initWithCoder:' not found
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: method definition for '-encodeWithCoder:' not found
+o/Users/forest/Documents/TVKiller/NSData.m:12: warning: class 'NSData' does not fully implement the 'NSCoding' protocol
+lSLF07#2@49"Compile /Users/forest/Documents/TVKiller/NSData.m295110209#295110209#0(1638"In file included from /Users/forest/Documents/TVKiller/NSData.m:8:/Users/forest/Documents/TVKiller/NSData.h:11: error: duplicate interface declaration for class 'NSData'/Users/forest/Documents/TVKiller/NSData.h:13: error: redefinition of 'struct NSData'/Users/forest/Documents/TVKiller/NSData.m:12: warning: incomplete implementation of class 'NSData'/Users/forest/Documents/TVKiller/NSData.m:12: warning: method definition for '-bytes' not found/Users/forest/Documents/TVKiller/NSData.m:12: warning: method definition for '-length' not found/Users/forest/Documents/TVKiller/NSData.m:12: warning: incomplete implementation of class 'NSData'/Users/forest/Documents/TVKiller/NSData.m:12: warning: method definition for '-copyWithZone:' not found/Users/forest/Documents/TVKiller/NSData.m:12: warning: class 'NSData' does not fully implement the 'NSCopying' protocol/Users/forest/Documents/TVKiller/NSData.m:12: warning: incomplete implementation of class 'NSData'/Users/forest/Documents/TVKiller/NSData.m:12: warning: method definition for '-mutableCopyWithZone:' not found/Users/forest/Documents/TVKiller/NSData.m:12: warning: class 'NSData' does not fully implement the 'NSMutableCopying' protocol/Users/forest/Documents/TVKiller/NSData.m:12: warning: incomplete implementation of class 'NSData'/Users/forest/Documents/TVKiller/NSData.m:12: warning: method definition for '-initWithCoder:' not found/Users/forest/Documents/TVKiller/NSData.m:12: warning: method definition for '-encodeWithCoder:' not found/Users/forest/Documents/TVKiller/NSData.m:12: warning: class 'NSData' does not fully implement the 'NSCoding' protocol15(4@50"Duplicate interface declaration for class 'NSData'295110209#67#104#2(7@63"In file included from /Users/forest/Documents/TVKiller/NSData.m295110209#4294967295#0#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#8#0#8#0#0"0(13@95"Duplicate interface declaration for class 'NSData' in /Users/forest/Documents/TVKiller/NSData.h295110209#4294967295#0#0(6@41"/Users/forest/Documents/TVKiller/NSData.h295110197#11#0#11#0#0"0(6@41"/Users/forest/Documents/TVKiller/NSData.h295110197#11#0#11#0#0"0(4@31"Redefinition of 'struct NSData'295110209#171#85#2(7@63"In file included from /Users/forest/Documents/TVKiller/NSData.m295110209#4294967295#0#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#8#0#8#0#0"0(13@76"Redefinition of 'struct NSData' in /Users/forest/Documents/TVKiller/NSData.h295110209#4294967295#0#0(6@41"/Users/forest/Documents/TVKiller/NSData.h295110197#13#0#13#0#0"0(6@41"/Users/forest/Documents/TVKiller/NSData.h295110197#13#0#13#0#19"redefinition of '*'0(22@43"Incomplete implementation of class 'NSData'295110209#256#99#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#38"incomplete implementation of class '*'0(22@40"Method definition for '-bytes' not found295110209#355#96#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#35"method definition for '*' not found0(22@41"Method definition for '-length' not found295110209#451#97#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#35"method definition for '*' not found0(22@43"Incomplete implementation of class 'NSData'295110209#548#99#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#38"incomplete implementation of class '*'0(22@48"Method definition for '-copyWithZone:' not found295110209#647#104#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#35"method definition for '*' not found0(22@64"Class 'NSData' does not fully implement the 'NSCopying' protocol295110209#751#120#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#51"class '*' does not fully implement the '*' protocol0(22@43"Incomplete implementation of class 'NSData'295110209#871#99#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#38"incomplete implementation of class '*'0(22@55"Method definition for '-mutableCopyWithZone:' not found295110209#970#111#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#35"method definition for '*' not found0(22@71"Class 'NSData' does not fully implement the 'NSMutableCopying' protocol295110209#1081#127#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#51"class '*' does not fully implement the '*' protocol0(22@43"Incomplete implementation of class 'NSData'295110209#1208#99#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#38"incomplete implementation of class '*'0(22@49"Method definition for '-initWithCoder:' not found295110209#1307#105#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#35"method definition for '*' not found0(22@51"Method definition for '-encodeWithCoder:' not found295110209#1412#107#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#35"method definition for '*' not found0(22@63"Class 'NSData' does not fully implement the 'NSCoding' protocol295110209#1519#119#0(6@41"/Users/forest/Documents/TVKiller/NSData.m295110197#12#0#12#0#51"class '*' does not fully implement the '*' protocol0(0#0#41"/Users/forest/Documents/TVKiller/NSData.m2475720736#1686"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -include /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch -c /Users/forest/Documents/TVKiller/NSData.m -o /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/NSData.o1#
+
 CCompileC build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKillerAppDelegate.o /Users/forest/Documents/TVKiller/Classes/TVKillerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s295063875.283441
 e295063875.574257
@@ -422,12 +548,12 @@ oCouldn't open shared capabilities memory GSCapabilities (No such file or direct
 lSLF07#2@27"CompileXIB FlipsideView.xib295067087#295067088#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#49"/Users/forest/Documents/TVKiller/FlipsideView.xib4858560#455"    cd /Users/forest/Documents/TVKiller    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/FlipsideView.nib /Users/forest/Documents/TVKiller/FlipsideView.xib0#
 
 CCompileXIB /Users/forest/Documents/TVKiller/MainView.xib
-s295061789.238761
-e295061790.081270
+s295118303.627520
+e295118304.497923
 r1
 xCompileXIB
 x/Users/forest/Documents/TVKiller/MainView.xib
-lSLF07#2@23"CompileXIB MainView.xib295061789#295061790#0(0"0(0#0#45"/Users/forest/Documents/TVKiller/MainView.xib2475720736#447"    cd /Users/forest/Documents/TVKiller    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/MainView.nib /Users/forest/Documents/TVKiller/MainView.xib0#
+lSLF07#2@23"CompileXIB MainView.xib295118303#295118304#0(0"0(0#0#45"/Users/forest/Documents/TVKiller/MainView.xib2475720736#447"    cd /Users/forest/Documents/TVKiller    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/MainView.nib /Users/forest/Documents/TVKiller/MainView.xib0#
 
 CCompileXIB /Users/forest/Documents/TVKiller/MainWindow.xib
 s294620169.484007
@@ -447,6 +573,9 @@ xbuild/Debug-iphoneos/TVKiller.app/ResourceRules.plist
 x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
 lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist294620168#294620168#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist4375320#471"    cd /Users/forest/Documents/TVKiller    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app0#
 
+CCpResource build/Debug-iphoneos/TVKiller.app/TVKiller.app build/Debug-iphoneos/TVKiller.app
+r0
+
 CCpResource build/Debug-iphoneos/TVKiller.app/codes.mp3 codes.mp3
 s295060076.860138
 e295060077.188152
@@ -456,24 +585,33 @@ xbuild/Debug-iphoneos/TVKiller.app/codes.mp3
 xcodes.mp3
 lSLF07#2@14"Copy codes.mp3295060076#295060077#0(0"0(0#0#42"/Users/forest/Documents/TVKiller/codes.mp32475720736#422"    cd /Users/forest/Documents/TVKiller    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/forest/Documents/TVKiller/codes.mp3 /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app0#
 
+CCpResource build/Debug-iphoneos/TVKiller.app/codes.wav codes.wav
+s295116865.073739
+e295116865.293950
+r1
+xCpResource
+xbuild/Debug-iphoneos/TVKiller.app/codes.wav
+xcodes.wav
+lSLF07#2@14"Copy codes.wav295116865#295116865#0(0"0(0#0#42"/Users/forest/Documents/TVKiller/codes.wav4858560#422"    cd /Users/forest/Documents/TVKiller    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/forest/Documents/TVKiller/codes.wav /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app0#
+
 CGenerateDSYMFile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app.dSYM /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller
-s295067371.154610
-e295067371.252804
+s295118332.939213
+e295118332.993903
 r1
 xGenerateDSYMFile
 x/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app.dSYM
 x/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller
-lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/TVKiller.app.dSYM build/Debug-iphoneos/TVKiller.app/TVKiller295067371#295067371#0(0"0(0#0#75"/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller2475720736#347"    cd /Users/forest/Documents/TVKiller    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller -o /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app.dSYM0#
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/TVKiller.app.dSYM build/Debug-iphoneos/TVKiller.app/TVKiller295118332#295118333#0(0"0(0#0#75"/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller2475720736#347"    cd /Users/forest/Documents/TVKiller    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller -o /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app.dSYM0#
 
 CLd /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller normal armv6
-s295067370.709526
-e295067371.154379
+s295118332.844151
+e295118332.935215
 r1
 xLd
 x/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller
 xnormal
 xarmv6
-lSLF07#2@80"Link /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller295067370#295067371#0(0"0(0#0#0"2475720736#915"    cd /Users/forest/Documents/TVKiller    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/forest/Documents/TVKiller/build/Debug-iphoneos -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -filelist /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKiller.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreAudio -framework AVFoundation -o /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller0#
+lSLF07#2@80"Link /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller295118332#295118332#0(0"0(0#0#0"2475720736#989"    cd /Users/forest/Documents/TVKiller    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/forest/Documents/TVKiller/build/Debug-iphoneos -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -filelist /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/Objects-normal/armv6/TVKiller.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreAudio -framework AVFoundation -framework CoreData -framework AudioToolbox -framework MobileCoreServices -o /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/TVKiller0#
 
 CProcessInfoPlistFile /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app/Info.plist TVKiller-Info.plist
 s294620168.614248
@@ -498,10 +636,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@30"Precompile TVKiller_Prefix.pch294620170#294620171#0(0"0(0#0#52"/Users/forest/Documents/TVKiller/TVKiller_Prefix.pch4375320#1585"    cd /Users/forest/Documents/TVKiller    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-generated-files.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-own-target-headers.hmap -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-all-target-headers.hmap -iquote /Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/TVKiller-project-headers.hmap -F/Users/forest/Documents/TVKiller/build/Debug-iphoneos -I/Users/forest/Documents/TVKiller/build/Debug-iphoneos/include -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources/armv6 -I/Users/forest/Documents/TVKiller/build/TVKiller.build/Debug-iphoneos/TVKiller.build/DerivedSources -c /Users/forest/Documents/TVKiller/TVKiller_Prefix.pch -o /var/folders/Vz/VzMJsJyDGGWz689HQ-4kyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TVKiller_Prefix-efrrdqirksacnwegxpetxmpydmqg/TVKiller_Prefix.pch.gch0#
 
 CTouch /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
-s295067371.252999
-e295067371.259585
+s295118332.994103
+e295118333.002436
 r1
 xTouch
 x/Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app
-lSLF07#2@72"Touch /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app295067371#295067371#0(0"0(0#0#0"2475720736#253"    cd /Users/forest/Documents/TVKiller    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app0#
+lSLF07#2@72"Touch /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app295118332#295118333#0(0"0(0#0#0"2475720736#253"    cd /Users/forest/Documents/TVKiller    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/forest/Documents/TVKiller/build/Debug-iphoneos/TVKiller.app0#
 

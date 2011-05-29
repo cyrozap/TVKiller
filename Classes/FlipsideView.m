@@ -33,4 +33,5 @@
 }
 
 
+@synthesize webView;
 @end

@@ -1,19 +1,26 @@
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:9: error: no type or storage class may be specified here before 'implementation'
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:15: error: initializer element is not constant
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:17: error: initializer element is not constant
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: no '-initWithContentsOfURL:error:' method found
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: (Messages without a matching method signature
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: will be assumed to return 'id' and accept
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: warning: '...' as arguments.)
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:21: error: initializer element is not constant
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:22: error: expected identifier or '(' before '[' token
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:25: error: expected identifier or '(' before '[' token
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:27: error: expected identifier or '(' before '[' token
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:28: error: expected identifier or '(' before '[' token
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:31: error: expected ';' before '{' token
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: '@end' missing in implementation context
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: property 'player' requires method '-player' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: property 'player' requires the method 'setPlayer:' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: incomplete implementation of class 'AVAudioPlayer'
-/Users/forest/Documents/TVKiller/AVAudioPlayer.m:54: warning: method definition for '-audioPlayerDidFinishPlaying:successfully:' not found
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m: In function '-[AVAudioPlayer startPlayback:]':
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:34: warning: class 'AVAudioPlayer' does not implement the 'AVAudioPlayerDelegate' protocol
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m: At top level:
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'numberOfChannels' requires method '-numberOfChannels' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'duration' requires method '-duration' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'url' requires method '-url' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'data' requires method '-data' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'volume' requires method '-volume' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'volume' requires the method 'setVolume:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'currentTime' requires method '-currentTime' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'currentTime' requires the method 'setCurrentTime:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'numberOfLoops' requires method '-numberOfLoops' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'numberOfLoops' requires the method 'setNumberOfLoops:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: property 'meteringEnabled' requires the method 'setMeteringEnabled:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: incomplete implementation of class 'AVAudioPlayer'
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-averagePowerForChannel:' not found
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-peakPowerForChannel:' not found
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-updateMeters' not found
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-stop' not found
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-pause' not found
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-play' not found
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-prepareToPlay' not found
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-initWithData:error:' not found
+/Users/forest/Documents/TVKiller/AVAudioPlayer.m:44: warning: method definition for '-initWithContentsOfURL:error:' not found
